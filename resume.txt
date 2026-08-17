@@ -1,0 +1,45 @@
+SHIVAM KUMAR
+Email: shivam.kumar@example.com | Phone: +91-98765-43210
+LinkedIn: linkedin.com/in/shivamkumar | GitHub: github.com/shivamkumar
+
+OBJECTIVE
+Motivated Computer Science student seeking opportunities to apply skills in Python, AI/ML, and web development.
+
+EDUCATION
+Bachelor of Technology – Computer Science & Engineering
+XYZ University, 2022–2026 | CGPA: 7.8 / 10
+
+SKILLS
+Programming: Python, JavaScript, HTML, CSS
+AI/ML: Google Gemini API, Prompt Engineering, JSON Handling
+Tools: Git, GitHub, VS Code
+Other: REST APIs, Problem Solving, Teamwork
+
+PROJECTS
+1. AI-Assisted Resume Portfolio Generator (Group Project, 2026)
+   Built a Python application that reads a resume, calls the Gemini API, receives structured JSON, and generates a portfolio.html webpage.
+   Technologies: Python, Gemini API, JSON, HTML, CSS
+   Role: Team Lead – designed the prompt, handled JSON parsing, and built the HTML template.
+
+2. Personal Expense Tracker (Solo Project, 2025)
+   Command-line Python app to track daily expenses, with CSV export and category-based summaries.
+   Technologies: Python, CSV, argparse
+
+EXPERIENCE
+Intern – Web Development | TechBridge Solutions | May 2025 – July 2025
+- Developed and styled landing pages using HTML, CSS, JavaScript
+- Collaborated with senior developers on bug fixes and feature updates
+- Worked with REST APIs to fetch and display dynamic content
+
+ACHIEVEMENTS
+- Team Lead for final-year capstone group project (AI Resume Portfolio Generator)
+- Completed Google Gemini API Crash Course (Coursera, 2025)
+- Participated in college-level Hackathon 2024 – built a chatbot prototype in 24 hours
+- Academic: Maintained CGPA above 7.5 throughout all semesters
+
+CERTIFICATIONS
+- Python for Everybody – Coursera (University of Michigan), 2024
+- Introduction to AI – Google, 2025
+
+INTERESTS
+Open source contribution, building small Python tools, reading about AI ethics and responsible AI usage
