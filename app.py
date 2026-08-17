@@ -331,6 +331,8 @@ def deploy_to_vercel(html_content: str, name: str) -> str:
         response = requests.post(url, json=payload, headers=headers)
         if response.status_code == 200:
             data = response.json()
+            if "alias" in data and len(data["alias"]) > 0:
+                return f"https://{data['alias'][0]}"
             return f"https://{data.get('url')}"
         return ""
     except:
