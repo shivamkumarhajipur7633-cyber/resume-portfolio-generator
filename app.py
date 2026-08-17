@@ -322,7 +322,10 @@ def deploy_to_vercel(html_content: str, name: str) -> str:
                 "data": html_content
             }
         ],
-        "target": "production"
+        "target": "production",
+        "projectSettings": {
+            "framework": None
+        }
     }
     try:
         response = requests.post(url, json=payload, headers=headers)
