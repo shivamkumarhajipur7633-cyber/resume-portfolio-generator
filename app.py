@@ -305,8 +305,10 @@ def deploy_to_vercel(html_content: str, name: str) -> str:
     if not token:
         return ""
     
-    # Add a random suffix to make it completely unique and avoid being tied to existing project branch locks
     import random, string
+    clean_name = re.sub(r'[^a-zA-Z0-9]', '', name).lower()
+    if not clean_name:
+        clean_name = "portfolio"
     suffix = ''.join(random.choices(string.ascii_lowercase + string.digits, k=4))
     project_name = f"{clean_name}-folio-{suffix}"
 
